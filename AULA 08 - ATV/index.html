@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <form action="#" method="post">
+        <div>
+            <label for="name">Nome:</label>
+            <input id="name" name="name" type="text" placeholder="Digite seu nome"><br><br>
+            <label for="email">E-mail:</label>
+            <input id="email" name="email" type="email" placeholder="Digite seu email"><br><br>
+            <label for="password">Senha:</label>
+            <input id="password" name="password" type="password" minlength="6" required placeholder="Digite sua senha"><br><br>
+            <label for="number">Idade:</label>
+            <input id="number" name="number type="number" required placeholder="Digite sua idade"><br><br>
+        </div>
+
+        <div>
+            <label for="sexo">Sexo:</label><br>
+            <input type="radio" id="masculino" name="sexo" value="sexo" checked>
+            <label for="sexo">Masculino</label><br>
+        
+            <input type="radio" id="feminino" name="sexo" value="sexo">
+            <label for="sexo">Feminino</label><br>
+            
+            <input type="radio" id="outros" name="sexo" value="sexo">
+            <label for="sexo">Outros</label>
+            <br><br>
+        </div>
+
+        <div>
+            <label for="interesses">Interesses:</label><br>
+            <input type="checkbox" id="opcao1" name="interesses" value="tecnologia">
+            <label for="opcao1">Tecnologia</label><br>
+            
+            <input type="checkbox" id="opcao2" name="interesses" value="esportes">
+            <label for="opcao2">Esportes</label><br>
+
+            <input type="checkbox" id="opcao2" name="interesses" value="musica">
+            <label for="opcao2">Musica</label><br><br>
+        </div>
+
+        <div>
+        <label for="frutas">Curso desejado:</label><br>
+            <select name="cursos" id="cursos">
+                <option value="tecnologi]" selected>T.I</option>
+                <option value="direito">Direito</option>
+                <option value="medicina">Medicina</option>
+                <option value="design">Design</option>
+            </select><br><br>
+        </div>
+
+        <div>
+            <label for="upload">Upload e mensagem</label><br>
+            <input type="file" name="arquivo" id="arquivo"><br><br>
+            <textarea name="texto" id="text" rows="4" maxlength="50" placeholder="Digite aqui max 100 caracteres"></textarea><br><br>
+            <input type="button" value="Enviar" disabled>
+            <br><br>
+        </div>
+
+        <div>
+            <label for="termoscons">Termos e consentimentos</label><br>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Leia os termos de concordancia de utilização do usuario.</a><br>
+            <input type="checkbox" id="opcao1" name="termo" value="termo">
+            <label for="opcao1">Aceitar os termos para proceguir...</label>
+
+            <br><br>
+            <input type="button" value="Submit">
+        </div>
+    </form>
+    
+</body>
+</html>

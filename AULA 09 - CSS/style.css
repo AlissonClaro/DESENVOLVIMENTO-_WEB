@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+
+
+h1 {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.primeirotexto {
+    font-size: 18px;
+    color: brown;
+    text-align: justify;
+}
+
+.segundotexto {
+    font-size: 16px;
+    color: red;
+    text-align: left;
+}
+
+.textbox {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.meio {
+    display: flex;
+    background-color: navajowhite;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.boxsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+body {
+    background-color: red;
+}
+

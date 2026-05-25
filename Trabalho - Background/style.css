@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    height: 250px;
+    background-color: #001964;
+    background-image: url(/source/fastcar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.banner2 {
+    height: 200px;
+    color:#ffffff;
+    background-color: #001964;
+    background: linear-gradient(145deg, #84ff01, #ff0000) center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+}
